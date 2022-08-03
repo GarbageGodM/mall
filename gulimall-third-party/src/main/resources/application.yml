@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 81.71.85.63:8848
+    alicloud:
+      access-key: LTAI5tSV9HU64TFgK2zFRBz5
+      secret-key: OCML0qJzmOQeLU0JRpsg2vaHJR345v
+      oss:
+        endpoint: oss-cn-chengdu.aliyuncs.com
+        bucket: gxm-gulimall
+
+  application:
+    name: gulimall-third-party
+
+server:
+  port: 30000
+
+
